@@ -35,7 +35,7 @@
     padding: 40px 0;
     
     /* DEBUG */
-    background-color:pink;
+    /* background-color:pink; */
 }
 
 .products-container > .container {
@@ -66,12 +66,29 @@
     width: 100%;
 }
 
+.card:hover .product_pic {
+    display:none;
+}
+
+.product_pic_hover {
+    width: 100%;
+    display:none;
+}
+
+.card:hover .product_pic_hover {
+    display:block;
+}
+
 .favorite {
     position: absolute;
     top: 15px;
     right: 0;
     background-color: white;
     padding: 15px;
+}
+
+.favorite:hover {
+    color:red;
 }
 
 .heart {
