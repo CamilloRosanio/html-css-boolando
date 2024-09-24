@@ -66,6 +66,7 @@
     width: 100%;
 }
 
+/* HOVER */
 .card:hover .product_pic {
     display:none;
 }
@@ -87,6 +88,7 @@
     padding: 15px;
 }
 
+/* HOVER */
 .favorite:hover {
     color:red;
 }
