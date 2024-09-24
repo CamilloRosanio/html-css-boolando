@@ -48,27 +48,67 @@
 }
 
 .card {
-    flex-grow: 1;
+    flex: 1 0 30%;
     
     /* DEBUG */
     background-color: red;
     border: 1px solid black;
-    width: 250px;
-    height: 350px;
 }
+
+
+/* # CARD IMG ----------------------------------- */
 
 .card > .img {
     position: relative;
+}
 
-    /* DEBUG */
-    background-color: aqua;
+.product_pic {
+    width: 100%;
+}
+
+.favorite {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    background-color: white;
+    padding: 15px;
+}
+
+.heart {
+    width:100%;
+    font-size: 2rem;
+    line-height: 1.1rem;
+}
+
+.discount-tag {
+    position: absolute;
+    top: 85%;
+    left: 0;
+    display: flex;
+    gap:5px;
+
+}
+
+.discount-tag > p {
+    color:white;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.price-discount {
+    text-align: center;
+    background-color: red;
+}
+
+.sostenibile {
+    background-color: rgb(0, 138, 46);
 }
 
 
 /* # CARD DESCRIPTION ----------------------------------- */
 
 .card .description {
-    padding-top: 5px;
     background-color: white;
 }
 
