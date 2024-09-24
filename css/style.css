@@ -1,13 +1,14 @@
-/* # RESET----------------------------------- */
+/* # RESET ----------------------------------- */
 
     * {
         box-sizing: border-box;
         padding: 0;
         margin: 0;
+        font-family: "Open Sans", sans-serif;
     }
 
 
-/* # UTILS----------------------------------- */
+/* # UTILS ----------------------------------- */
 
     .container {
         margin: 0 auto;
@@ -17,7 +18,7 @@
     }
 
 
-/* # HEADER----------------------------------- */
+/* # HEADER ----------------------------------- */
 
     header {
         
@@ -28,7 +29,7 @@
     }
 
 
-/* # PRODUCTS SECTION----------------------------------- */
+/* # PRODUCTS SECTION ----------------------------------- */
 
 .products-container {
     padding: 40px 0;
@@ -54,4 +55,44 @@
     border: 1px solid black;
     width: 250px;
     height: 350px;
+}
+
+.card > .img {
+    position: relative;
+
+    /* DEBUG */
+    background-color: aqua;
+}
+
+
+/* # CARD DESCRIPTION ----------------------------------- */
+
+.card .description {
+    padding-top: 5px;
+    background-color: white;
+}
+
+.product_brand {
+    font-size: 0.8rem;
+}
+
+.product_name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1rem;
+}
+
+.product_price {
+    display: flex;
+    gap: 10px;
+    font-size: .8rem;
+}
+
+.price_discounted {
+    color: red;
+    font-weight: bold;
+}
+
+.price_normal {
+    text-decoration: line-through;
 }
