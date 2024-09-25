@@ -102,6 +102,9 @@
         width:100%;
         font-size: 2rem;
         line-height: 1.1rem;
+
+        /* CORREZIONE !!!
+        Fondamentale non dare le dimensioni in questo modo, ma assegnare Height fissa, Width fissa, e Line-Height fissa, e poi giocare col font-size del carattere contenuto. La formula scritta sopra è ERRATA e può portare a una serie di problemi. */
     }
 
     .discount-tag {
