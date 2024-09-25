@@ -67,6 +67,10 @@
         display:block;
     }
 
+    /* CORREZIONE !!!
+    Un errore di visualizzazione in cui viene mostrata una barra vuota sotto l'immagine prima dell'effetto hover si verificava finchè non è stato aggiunto "display:block", quindi puro errore di visualizzazione che anche con l'inspector non dava indizi su cosa fosse. */
+
+
     /* HOVER */
     .card:hover .product_pic {
         display:none;
