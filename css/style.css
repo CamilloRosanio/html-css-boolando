@@ -17,15 +17,64 @@
         max-width: 100%;
     }
 
+    header ul,
+    footer ul {
+        list-style-type: none;
+
+        display:flex;
+        align-items: center;
+        gap: 1rem;
+
+    }
+
+    header a,
+    footer a {
+        text-decoration: none;
+        color: inherit;
+    }
+
 
 /* # HEADER ----------------------------------- */
 
     header {
-        
+        background-color: #ff6900;
+        padding:20px;
+        color: white;
+        font-weight: bold;
+
         /* DEBUG */
-        width: 100%;
-        background-color: brown;
-        height: 100px;
+
+    }
+
+    header .container {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .side {
+        flex: 0 0 20%;
+    }
+
+    
+
+    header .right {
+        display:flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    header .center {
+        flex: 0 0 20%;
+        height: 25px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header img {
+        height: 100%;
     }
 
 
@@ -163,3 +212,35 @@
     .price_normal {
         text-decoration: line-through;
     }
+
+
+/*  # FOOTER */
+
+footer {
+    background-color: #1a1a1a;
+    height: 75px;
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .side a  {
+    font-size: 0.7rem;
+}
+
+
+/* # DEBUG */
+
+.debug {
+    background-color: aqua;
+    padding: 20px;
+    height: 10px;
+    border: 1px dashed black;
+}
